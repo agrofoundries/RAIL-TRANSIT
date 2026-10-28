@@ -213,7 +213,7 @@ export const VendorPortalPage: React.FC<VendorPortalPageProps> = ({ onBackToHome
                       Click or drag files here to upload
                     </p>
                     <span style={{ fontSize: '11.5px', color: '#6B7280', display: 'block', marginTop: '4px' }}>
-                      Accepts Mill Test Reports (.PDF), Tooling Specs, ISO Certifications
+                      Accepts Mill Test Reports (.PDF), Tooling Specs, Compliance Documents
                     </span>
                   </div>
 

@@ -21,7 +21,7 @@ export const NewsInsights: React.FC = () => {
       category: 'INFRASTRUCTURE',
       date: 'PRESS DISPATCH',
       title: 'Delivering Reliable Solutions for a Changing World',
-      desc: 'Awarded multi-year contract for Class I freight turnout frog replacements and AAR M-201 Grade E couplers across North America.',
+      desc: 'Awarded contract for railway freight turnout frog replacements and RDSO approved couplers and bogie assemblies.',
       img: '/images/real_train_wheelset_stock.jpg'
     }
   ];

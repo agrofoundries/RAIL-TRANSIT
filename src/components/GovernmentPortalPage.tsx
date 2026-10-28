@@ -139,7 +139,7 @@ export const GovernmentPortalPage: React.FC<GovernmentPortalPageProps> = ({ onBa
                     Government &amp; Transit Authority Submission
                   </h1>
                   <p style={{ fontSize: '13px', color: '#6B7280', margin: '4px 0 0 0' }}>
-                    Submit national railway tender dossiers, AREMA / AASHTO infrastructure blueprints, and compliance documents.
+                    Submit national railway tender dossiers, RDSO / Indian Railways infrastructure blueprints, and compliance documents.
                   </p>
                 </div>
               </div>
@@ -213,7 +213,7 @@ export const GovernmentPortalPage: React.FC<GovernmentPortalPageProps> = ({ onBa
                       Click or drag files here to upload
                     </p>
                     <span style={{ fontSize: '11.5px', color: '#6B7280', display: 'block', marginTop: '4px' }}>
-                      Accepts AREMA / AASHTO Blueprints, PDF Tender Documents, ZIP Archives
+                      Accepts RDSO / Technical Blueprints, PDF Tender Documents, ZIP Archives
                     </span>
                   </div>
 

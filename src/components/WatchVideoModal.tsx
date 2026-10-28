@@ -64,7 +64,7 @@ export const WatchVideoModal: React.FC<WatchVideoModalProps> = ({ isOpen, onClos
           </div>
 
           <span style={{ fontSize: '11px', color: '#A3B5AC' }}>
-            AAR M-1003 &amp; AREMA Compliant Facility
+            RDSO Approved Class 'A' Foundry
           </span>
         </div>
       </div>

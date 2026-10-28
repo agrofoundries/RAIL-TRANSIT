@@ -10,12 +10,12 @@ export const TestingFacilities: React.FC = () => {
     },
     {
       title: 'SPECTROMETRY CHEMICAL ANALYSIS',
-      desc: 'Argon-shielded optical emission spectrometry verifying carbon, manganese, and alloy dosing to exact AREMA specs.',
+      desc: 'Argon-shielded optical emission spectrometry verifying carbon, manganese, and alloy dosing to exact RDSO specs.',
       icon: Flame
     },
     {
       title: '100% VOLUMETRIC NDT TESTING',
-      desc: '100% volumetric ultrasonic flaw detection and magnetic particle scanning per AAR M-1003 rules.',
+      desc: '100% volumetric ultrasonic flaw detection and magnetic particle scanning per RDSO quality standards.',
       icon: ShieldAlert
     },
     {
@@ -30,7 +30,7 @@ export const TestingFacilities: React.FC = () => {
     },
     {
       title: 'ACCREDITED LAB FACILITIES',
-      desc: 'AAR & ISO 17025 accredited in-house testing laboratory with full heat certificate traceability.',
+      desc: "RDSO Approved Class 'A' Foundry in-house testing laboratory with full heat certificate traceability.",
       icon: Building
     }
   ];

@@ -144,7 +144,7 @@ export const RailwayTelemetryWidget: React.FC = () => {
             <div style={{ paddingTop: '1.25rem', marginTop: '1.5rem', borderTop: '1px solid rgba(255,255,255,0.15)', display: 'flex', alignItems: 'center', gap: '8px' }}>
               <ShieldCheck size={16} color="#4CAF50" />
               <span style={{ fontSize: '11px', color: '#E8F5E9', fontFamily: "'Manrope', sans-serif !important" }}>
-                AAR M-1003 continuous telemetry protocol simulation.
+                RDSO Class 'A' continuous telemetry protocol simulation.
               </span>
             </div>
           </div>

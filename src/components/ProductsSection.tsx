@@ -14,21 +14,21 @@ export const ProductsSection: React.FC<ProductsSectionProps> = ({ lang }) => {
       title: t.prod1Title,
       desc: t.prod1Desc,
       tag: '1000-3000 SERIES',
-      specs: 'AREMA Ch. 4 | ASTM A27 / A536 Steel & Ductile Iron',
+      specs: 'IS 1030 / IRS R-16 | Cast Steel & Ductile Iron',
       img: '/images/turnout_frog_manganese_stock.jpg'
     },
     {
       title: t.prod2Title,
       desc: t.prod2Desc,
       tag: '4000-6000 SERIES',
-      specs: 'AAR M-107 / M-208 | Forged Alloy Steel (ASTM A668)',
+      specs: 'IRS R-16 / IS 1875 | Forged Alloy Steel',
       img: '/images/prod_railway_track_plates.jpg'
     },
     {
       title: t.prod3Title,
       desc: t.prod3Desc,
       tag: '7000-8000 SERIES',
-      specs: 'AAR M-201 Grade E Cast Steel Couplers',
+      specs: 'RDSO Grade E Cast Steel Couplers',
       img: '/images/locomotive_wheelset_stock.jpg'
     },
     {
@@ -51,7 +51,7 @@ export const ProductsSection: React.FC<ProductsSectionProps> = ({ lang }) => {
         ? 'Custom drop forgings, CNC machined tie-bar assemblies, and specialized turnout components engineered to custom client CAD specs.'
         : 'Forjas de precisión y componentes mecanizados CNC según especificaciones de clientes.',
       tag: 'CUSTOM MANUFACTURING',
-      specs: 'ISO 9001:2015 & PPAP Level 3 Compliant',
+      specs: 'IS 1875 / PPAP Level 3 Quality Compliant',
       img: '/images/real_steel_gears_stock.jpg'
     },
     {
@@ -60,7 +60,7 @@ export const ProductsSection: React.FC<ProductsSectionProps> = ({ lang }) => {
         ? 'Monobloc heat-treated forged steel railway wheels and high-capacity precision axles built for 36-ton heavy haul freight tracks.'
         : 'Ruedas de acero forjado monobloque y ejes de alta capacidad para carga pesada.',
       tag: '13000-14000 SERIES',
-      specs: 'AAR M-107 Class B & C | FRA Rule 213 Certified',
+      specs: 'IRS R-34 / IRS R-19 | Monobloc Heavy Axles',
       img: '/images/disused-electric-drive-rack-railway-600w-2624945193.webp'
     },
     {
@@ -69,7 +69,7 @@ export const ProductsSection: React.FC<ProductsSectionProps> = ({ lang }) => {
         ? 'Explosive depth-hardened manganese frog crossings and turnout switch heels engineered for high-frequency 300+ km/h transit lines.'
         : 'Cruces de manganeso endurecido y talones de cambio para líneas de alta velocidad.',
       tag: '15000-16000 SERIES',
-      specs: 'AREMA Ch. 4 Spec 2.4 | High-Impact Cast Manganese',
+      specs: 'RDSO High-Impact Cast Manganese Frog Specs',
       img: '/images/prod_centering_disc.jpg'
     }
   ];

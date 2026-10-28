@@ -477,11 +477,9 @@ export const InteractiveExplorer: React.FC<InteractiveExplorerProps> = ({
   // Available Standards Filter Options
   const standardsList = [
     { id: 'all', label: 'All Standards' },
-    { id: 'RDSO', label: 'RDSO' },
-    { id: 'AAR', label: 'AAR M-201' },
-    { id: 'AREMA', label: 'AREMA' },
-    { id: 'ASTM', label: 'ASTM' },
-    { id: 'IS', label: 'IS / IRS Spec' }
+    { id: 'RDSO', label: "RDSO Class 'A'" },
+    { id: 'IS', label: 'IS / IRS Spec' },
+    { id: 'ASTM', label: 'ASTM' }
   ];
 
   // Available Axle Load Filter Options
@@ -602,7 +600,7 @@ export const InteractiveExplorer: React.FC<InteractiveExplorerProps> = ({
             </h2>
 
             <p style={{ fontSize: '1.05rem', color: '#4CAF50', lineHeight: 1.6, margin: 0 }}>
-              Search across 100+ AREMA, RDSO &amp; AAR certified railway components, heavy steel castings, and ready-mix concrete formulations. Filter by compliance, load rating, and mechanical tolerances.
+              Search across 100+ RDSO approved railway components, heavy steel castings, and trackwork formulations. Filter by compliance, load rating, and mechanical tolerances.
             </p>
           </div>
         )}
@@ -619,7 +617,7 @@ export const InteractiveExplorer: React.FC<InteractiveExplorerProps> = ({
                   Component &amp; Technical Spec Explorer
                 </h3>
                 <span style={{ fontSize: '0.825rem', color: '#4CAF50' }}>
-                  Filter by RDSO / AAR standards, material grades, and CAD schematics
+                  Filter by RDSO Class 'A' standards, material grades, and CAD schematics
                 </span>
               </div>
             </div>
@@ -918,11 +916,7 @@ export const InteractiveExplorer: React.FC<InteractiveExplorerProps> = ({
                 <div><strong style={{ color: '#1B5E20' }}>CMS Frog:</strong> Cast Manganese Steel (12-14% Mn) Crossing Frog</div>
                 <div><strong style={{ color: '#1B5E20' }}>TWS:</strong> Thick Web Switch Point Tongue Rail</div>
                 <div><strong style={{ color: '#1B5E20' }}>RDSO:</strong> Research Designs &amp; Standards Organisation</div>
-                <div><strong style={{ color: '#1B5E20' }}>AAR:</strong> Association of American Railroads</div>
-                <div><strong style={{ color: '#1B5E20' }}>AREMA:</strong> Amer. Railway Engineering &amp; Maint.-of-Way Assoc.</div>
                 <div><strong style={{ color: '#1B5E20' }}>IRS:</strong> Indian Railway Standards</div>
-                <div><strong style={{ color: '#1B5E20' }}>FRA:</strong> Federal Railroad Administration (USA)</div>
-                <div><strong style={{ color: '#1B5E20' }}>APTA:</strong> American Public Transportation Association</div>
                 <div><strong style={{ color: '#1B5E20' }}>5-Axis CNC:</strong> 5-Axis Computer Numerical Control Milling</div>
                 <div><strong style={{ color: '#1B5E20' }}>CMM:</strong> Coordinate Measuring Machine 3D Inspection</div>
                 <div><strong style={{ color: '#1B5E20' }}>BHN:</strong> Brinell Hardness Number</div>

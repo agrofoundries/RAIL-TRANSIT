@@ -15,7 +15,7 @@ export const EngineeringDrawingModal: React.FC<EngineeringDrawingModalProps> = (
   onClose,
   productTitle = 'Jacking Pad for Diesel Locomotives',
   productSeries = 'SERIES 1000',
-  productSpecs = 'AAR M-201 Grade E Cast Steel',
+  productSpecs = 'RDSO Grade E Cast Steel',
   productImg = '/images/amsted_jacking_pad.jpg'
 }) => {
   if (!isOpen) return null;
@@ -78,7 +78,7 @@ export const EngineeringDrawingModal: React.FC<EngineeringDrawingModalProps> = (
           <div style={{ gridColumn: 'span 7' }}>
             <div style={{ background: '#F8F9FA', border: '1.5px solid #D1D5DB', borderRadius: '2px', padding: '1rem', position: 'relative', overflow: 'hidden' }}>
               <div style={{ position: 'absolute', top: '12px', left: '12px', background: '#1B5E20', color: '#FAF6EE', fontSize: '9px', fontWeight: 900, padding: '3px 8px', letterSpacing: '0.08em', border: '1px solid #4CAF50' }}>
-                APPROVED AREMA CAD DRAWING
+                APPROVED RDSO CAD DRAWING
               </div>
 
               <img 
@@ -105,7 +105,7 @@ export const EngineeringDrawingModal: React.FC<EngineeringDrawingModalProps> = (
                   {productSpecs}
                 </h4>
                 <p style={{ fontSize: '12.5px', color: '#2E7D32', lineHeight: 1.5, margin: 0, fontWeight: 500, fontFamily: "'Manrope', sans-serif !important" }}>
-                  Manufactured via computerized electric induction melting with 100% volumetric ultrasonic NDT flaw scanning per AAR M-1003 rules.
+                  Manufactured via computerized electric induction melting with 100% volumetric ultrasonic NDT flaw scanning per RDSO Class 'A' rules.
                 </p>
               </div>
 
@@ -125,7 +125,7 @@ export const EngineeringDrawingModal: React.FC<EngineeringDrawingModalProps> = (
                   </div>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '11.5px', color: '#1B5E20', fontWeight: 600 }}>
                     <CheckCircle2 size={14} color="#4CAF50" />
-                    <span>36-Ton Heavy Axle Load (HAL) Certified</span>
+                    <span>Heavy Axle Load (HAL) Approved</span>
                   </div>
                 </div>
               </div>

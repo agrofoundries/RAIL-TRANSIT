@@ -629,15 +629,15 @@ export const Header: React.FC<HeaderProps> = ({ onRequestQuoteClick, onOpenExplo
                       />
                       <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(27, 94, 32, 0.88), transparent)' }} />
                       <span style={{ position: 'absolute', bottom: '12px', left: '14px', color: '#FFFFFF', fontSize: '11px', fontWeight: 900, textTransform: 'uppercase', letterSpacing: '0.12em', fontFamily: "'Manrope', sans-serif" }}>
-                        AAR M-1003 CERTIFIED FOUNDRY
+                        RDSO APPROVED CLASS 'A' FOUNDRY
                       </span>
                     </div>
                     <div style={{ padding: '1.25rem' }}>
                       <h4 style={{ fontSize: '15px', fontWeight: 900, color: '#111827', margin: '0 0 6px 0', fontFamily: "'Manrope', sans-serif" }}>
-                        North American Heavy Freight &amp; Transit Castings
+                        Rail Freight, Coach &amp; Transit Castings
                       </h4>
                       <p style={{ fontSize: '12.5px', color: '#4CAF50', margin: '0 0 14px 0', lineHeight: 1.45, fontFamily: "'Manrope', sans-serif" }}>
-                        Engineered to AREMA &amp; AAR M-1003 standards for 36-ton heavy axle load endurance.
+                        Engineered to RDSO Approved Class 'A' Foundry standards for heavy axle load endurance.
                       </p>
                       <a
                         href="#products"
@@ -705,7 +705,7 @@ export const Header: React.FC<HeaderProps> = ({ onRequestQuoteClick, onOpenExplo
               <div style={{ position: 'relative' }}>
                 <input
                   type="text"
-                  placeholder="Search products, AREMA specs..."
+                  placeholder="Search products, RDSO specs..."
                   onClick={() => {
                     setIsMobileMenuOpen(false);
                     if (onOpenExplorer) onOpenExplorer();

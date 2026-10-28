@@ -16,76 +16,52 @@ interface CertificationItem {
 
 const certificationsList: CertificationItem[] = [
   {
-    id: 'aar-m1003',
-    code: 'AAR M-1003 QA',
-    title: 'Association of American Railroads Quality Assurance',
-    authority: 'AAR Quality Assurance Committee',
-    certNumber: 'QA-CERT-8849-2026',
-    validUntil: 'December 2028',
-    scope: 'Manufacture of Cast Steel Bogies, Forged Axles, Axleboxes & Brake Head Hardware for Freight Cars.',
-    details: 'Complete quality system audit compliance covering non-destructive testing (NDT), traceability, material heat lot logging, and dimensional CMM verification.',
+    id: 'rdso-class-a',
+    code: "RDSO CLASS 'A'",
+    title: "RDSO Approved Class 'A' Foundry (Ministry of Railways)",
+    authority: 'Research Designs and Standards Organisation (RDSO)',
+    certNumber: 'RDSO-FOUNDRY-CLASS-A',
+    validUntil: 'Active Regulatory Approval',
+    scope: 'Manufacture of Grade A & B Steel Castings, Bogie Frames, Bolsters & Rail Draft Components.',
+    details: 'Certified Class A Foundry with full material traceability, induction melting, automated heat treatment, and ultrasonic NDT testing verification.',
     iconBg: '#4caf50',
     pdfSize: '2.4 MB'
   },
   {
-    id: 'arema-ch4',
-    code: 'AREMA CH. 4',
-    title: 'Trackwork & Switch Frog Manufacturing Compliance',
-    authority: 'American Railway Engineering & M/W Association',
-    certNumber: 'AREMA-TRK-9042',
-    validUntil: 'Annual Audit Completed 2026',
-    scope: 'Austenitic Manganese Turnout Frogs, Crossing Diamonds, Tie Plates, Guard Rail Clamps & Switch Components.',
-    details: 'Strict adherence to AREMA Chapter 4 trackwork geometry, explosive depth hardening parameters, and 36-ton HAL impact fatigue standards.',
+    id: 'rdso-trackwork',
+    code: 'RDSO TRACKWORK',
+    title: 'High-Integrity Railway Trackwork & Turnout Components',
+    authority: 'RDSO Civil Engineering Directorate',
+    certNumber: 'RDSO-TRK-SPEC',
+    validUntil: 'Continuous Audited Compliance',
+    scope: 'Manganese Turnout Frogs, Crossing Diamonds, Tie Plates, Guard Rail Clamps & Switch Components.',
+    details: 'Strict adherence to RDSO trackwork geometry, work-hardening parameters, and heavy axle load endurance standards.',
     iconBg: '#4caf50',
     pdfSize: '1.8 MB'
   },
   {
-    id: 'fra-rule213',
-    code: 'FRA RULE 213',
-    title: 'Federal Railroad Administration Safety Compliance',
-    authority: 'U.S. Department of Transportation (DOT / FRA)',
-    certNumber: 'FRA-213-CLASS1-OK',
-    validUntil: 'Active Compliance 2026',
-    scope: 'Safety Standard Compliance for Track Classes 1 through 9 including High-Speed Rail Corridors up to 220 mph.',
-    details: 'Verifies structural sound state of cast manganese frogs and turnout trackage under heavy axle load impacts without fatigue failure.',
+    id: 'rdso-rolling-stock',
+    code: 'RDSO ROLLING STOCK',
+    title: 'Bogie Castings & Freight Rolling Stock Components',
+    authority: 'RDSO Wagon & Carriage Directorate',
+    certNumber: 'RDSO-WGN-SPEC',
+    validUntil: 'Active Regulatory Approval',
+    scope: 'Safety Standard Compliance for Heavy Haul Freight Wagons (BOXNHL, BCNHL, BOBRN) and Coach Components.',
+    details: 'Verifies structural integrity of cast steel bogies, couplers, and suspension castings under maximum axle load impacts.',
     iconBg: '#15803D',
     pdfSize: '3.1 MB'
   },
   {
-    id: 'iso-9001',
-    code: 'ISO 9001:2015',
-    title: 'International Quality Management System',
-    authority: 'Bureau Veritas Quality Certification',
-    certNumber: 'ISO-9001-US-4921',
-    validUntil: 'March 2029',
-    scope: 'Design, Melting, Casting, Forging, Machining, and Assembly of Heavy Freight and Passenger Railway Components.',
-    details: 'Rigorous 9001:2015 process controls from scrap steel procurement to induction furnace chemistry and final CMM release auditing.',
+    id: 'rdso-metallurgy',
+    code: 'METALLURGY QA',
+    title: 'Comprehensive In-House Metallurgical & NDT Quality Assurance',
+    authority: 'RDSO M&C Directorate / Internal QA',
+    certNumber: 'QA-MET-TRACE-01',
+    validUntil: 'Annual Heat Code Audited',
+    scope: '100% Volumetric Ultrasonic Flaw Detection, Magnetic Particle Testing, Spectrometry & Microstructural Analysis.',
+    details: 'Complete quality system controls from scrap steel procurement to electric induction furnace chemistry and final release auditing.',
     iconBg: '#4caf50',
     pdfSize: '1.2 MB'
-  },
-  {
-    id: 'iso-14001',
-    code: 'ISO 14001:2015',
-    title: 'Environmental Management & Zero Slag Target',
-    authority: 'DNV GL Environmental Systems',
-    certNumber: 'ISO-14001-ENV-309',
-    validUntil: 'October 2027',
-    scope: '100% Recycled Electric Induction Foundry Operations, Thermal Silica Sand Reclamation & Zero Foundry Slag Landfill Target.',
-    details: 'Verified environmental management system achieving 98.4% sand recycling, closed-loop industrial water, and 100% renewable power melting.',
-    iconBg: '#4caf50',
-    pdfSize: '2.1 MB'
-  },
-  {
-    id: 'iso-45001',
-    code: 'ISO 45001:2018',
-    title: 'Occupational Health & Safety Foundry Management',
-    authority: 'TÜV SÜD America',
-    certNumber: 'OHS-45001-USA-77',
-    validUntil: 'June 2028',
-    scope: 'Foundry Safety Protocols, Robotic Automated Pouring Cells, Electric Induction Furnace Shielding & Heavy Crane Operations.',
-    details: 'Zero-harm workplace framework protecting 650+ foundry engineers, pour operators, and 5-axis CNC machining technicians.',
-    iconBg: '#4caf50',
-    pdfSize: '1.5 MB'
   }
 ];
 
@@ -201,7 +177,7 @@ export const TrustCertificationSection: React.FC = () => {
               <Lock size={18} color="#4caf50" />
               <div>
                 <span style={{ fontSize: '10.5px', color: '#4caf50', fontWeight: 900, textTransform: 'uppercase', letterSpacing: '0.08em', display: 'block', fontFamily: "'Manrope', sans-serif !important" }}>AUDITED QUALITY SYSTEM</span>
-                <strong style={{ fontSize: '13px', color: '#4caf50', fontWeight: 900, fontFamily: "'Manrope', sans-serif !important" }}>AAR M-1003 &amp; ISO CERTIFIED</strong>
+                <strong style={{ fontSize: '13px', color: '#4caf50', fontWeight: 900, fontFamily: "'Manrope', sans-serif !important" }}>RDSO APPROVED CLASS 'A' FOUNDRY</strong>
               </div>
             </div>
           </div>
@@ -416,7 +392,7 @@ export const TrustCertificationSection: React.FC = () => {
                         {auth.status}
                       </span>
                       <span style={{ fontSize: '9px', color: '#9CA3AF', fontWeight: 600, fontFamily: "'Manrope', sans-serif !important" }}>
-                        AAR / AREMA
+                        RDSO CLASS 'A'
                       </span>
                     </div>
                   </div>

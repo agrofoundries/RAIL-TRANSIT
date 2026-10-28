@@ -12,7 +12,7 @@ export const ProductShowcaseStrip: React.FC<ProductShowcaseStripProps> = ({ onOp
       title: 'JACKING PAD',
       fullTitle: 'Jacking Pad for Diesel Locomotives',
       img: '/images/amsted_jacking_pad.jpg',
-      specs: 'AAR M-201 Grade E'
+      specs: 'RDSO Grade E Cast Steel'
     },
     {
       title: 'BRAKE HEAD',
@@ -36,7 +36,7 @@ export const ProductShowcaseStrip: React.FC<ProductShowcaseStripProps> = ({ onOp
       title: 'RAILWAY TRACK PLATE',
       fullTitle: 'Railway Track Plates',
       img: '/images/amsted_track_plate.jpg',
-      specs: 'AREMA Ch. 4 Manganese'
+      specs: 'RDSO Trackwork Manganese'
     },
     {
       title: 'ROTAVATOR GEARBOX',

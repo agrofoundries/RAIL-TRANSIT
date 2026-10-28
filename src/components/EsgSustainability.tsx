@@ -16,7 +16,7 @@ export const EsgSustainability: React.FC<EsgSustainabilityProps> = ({
 
   const features = [
     { title: '98% Foundry Sand Recovery', desc: 'Closed-loop thermal reclamation system recycling silica molding sand' },
-    { title: 'ISO 14001:2015 Certified', desc: 'Zero-discharge environmental management across all foundry units' },
+    { title: "RDSO Class 'A' Eco-Standards", desc: 'Zero-discharge environmental management across all foundry units' },
     { title: '100% Recycled Scrap Steel', desc: 'Electric arc furnaces powered by scrap metal & renewable power' },
     { title: 'Sub-Zero Fatigue Extended Life', desc: 'Extends turnout frog & axle service life, lowering total life carbon' }
   ];
@@ -39,7 +39,7 @@ export const EsgSustainability: React.FC<EsgSustainabilityProps> = ({
                 <span style={{ background: '#ECFDF5', color: '#195B34', border: '1px solid #A7F3D0', padding: '4px 10px', fontSize: '11px', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.05em' }}>
                   Green Foundry Tech
                 </span>
-                <span style={{ color: '#15803D', fontSize: '12px', fontWeight: 600 }}>ISO 14001 &amp; AAR M-1003 Compliant</span>
+                <span style={{ color: '#15803D', fontSize: '12px', fontWeight: 600 }}>RDSO Approved Class 'A' Foundry</span>
               </div>
               <h3 style={{ fontSize: '22px', fontWeight: 900, color: '#195B34', marginBottom: '12px', lineHeight: 1.25 }}>
                 Recycled Steel Melting &amp; Sand Recovery

@@ -37,10 +37,10 @@ export const CorporateAdditionsSection: React.FC = () => {
       title: 'Quality Accreditations & Compliance',
       subtitle: 'Exceeding Global Specs',
       items: [
-        'AAR M-1003 Certified Railway Foundries',
-        'RDSO Class-A Approved Manufacturer (Indian Railways)',
-        'ISO 9001:2015 & IATF 16949 Automotive QA',
-        'FRA & Amtrak Specification Compliance'
+        "RDSO Approved Class 'A' Foundry (Indian Railways)",
+        'Critical Cast & Machined Railway Components Approval',
+        'Strict In-House Metallurgical & Physical Testing',
+        'Full Heat Code Traceability & Foundry QA'
       ]
     },
     {
@@ -85,7 +85,7 @@ export const CorporateAdditionsSection: React.FC = () => {
     {
       title: 'ASSOCIATIONS & FELLOWSHIPS',
       icon: Building2,
-      desc: 'IIF (Institute of Indian Foundrymen), AAR, CII, Engineering Export Council'
+      desc: 'IIF (Institute of Indian Foundrymen), CII, Engineering Export Council'
     },
     {
       title: 'ENGINEERING & CAD TOOLS',

@@ -177,7 +177,7 @@ export const VendorRegistrationModal: React.FC<VendorRegistrationModalProps> = (
               {/* Upload Spec & Mill Certificate Dropzone */}
               <div>
                 <label style={{ display: 'block', fontSize: '10.5px', fontWeight: 800, color: '#92400E', letterSpacing: '0.05em', textTransform: 'uppercase', marginBottom: '6px' }}>
-                  ATTACH MILL TEST REPORTS, ISO CERTIFICATES &amp; TECHNICAL SPECS *
+                  ATTACH MILL TEST REPORTS, QA CERTIFICATES &amp; TECHNICAL SPECS *
                 </label>
                 <div 
                   style={{ 
@@ -203,7 +203,7 @@ export const VendorRegistrationModal: React.FC<VendorRegistrationModalProps> = (
                     Click or Drag Mill Certificates &amp; Technical Drawings Here
                   </p>
                   <span style={{ fontSize: '10.5px', color: '#6B7280', display: 'block', marginTop: '4px' }}>
-                    EN 10204 3.1 Certificates, Chemical Analysis Reports, ISO 9001 Audits, Technical Drawings
+                    EN 10204 3.1 Certificates, Chemical Analysis Reports, QA Audits, Technical Drawings
                   </span>
                 </div>
 

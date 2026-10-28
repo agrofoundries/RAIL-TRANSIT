@@ -82,7 +82,7 @@ export const CompanyIntro: React.FC = () => {
 
               {/* Badge overlay */}
               <div style={{ position: 'absolute', top: '14px', right: '14px', zIndex: 20, background: '#1B5E20', color: '#FFFFFF', fontSize: '9.5px', fontWeight: 900, padding: '4px 10px', border: '1px solid #4CAF50', letterSpacing: '0.1em', fontFamily: "'Manrope', sans-serif !important" }}>
-                AAR M-1003 QA
+                RDSO APPROVED CLASS 'A' FOUNDRY
               </div>
 
               {/* Dynamic Video */}

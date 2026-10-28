@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import { ArrowRight, ChevronLeft, ChevronRight, Check, Filter } from 'lucide-react';
+import { ArrowRight, ChevronLeft, ChevronRight, Filter } from 'lucide-react';
 
 interface FeaturedComponentsProps {
   onOpenProductDetail?: (productTitle: string) => void;
@@ -274,7 +274,7 @@ export const FeaturedComponents: React.FC<FeaturedComponentsProps> = ({ onOpenPr
             <div>
               <div className="eyebrow">
                 <span style={{ display: 'inline-block', width: '32px', height: '3px', background: '#4CAF50' }} />
-                <span>RDSO, AREMA &amp; AAR M-1003 CERTIFIED CATALOG</span>
+                <span>RDSO APPROVED CLASS 'A' FOUNDRY CATALOG</span>
               </div>
               <h2 style={{ fontSize: 'clamp(2.2rem, 3.8vw, 3rem)', color: '#111827', fontWeight: 900, margin: 0, textTransform: 'uppercase', letterSpacing: '-0.02em', fontFamily: "'Manrope', sans-serif !important" }}>
                 FEATURED WAGONS, BOGIES &amp; STEEL CASTINGS
@@ -441,23 +441,13 @@ export const FeaturedComponents: React.FC<FeaturedComponentsProps> = ({ onOpenPr
                   </div>
 
                   <div style={{ paddingTop: '0.85rem', marginTop: '0.85rem', borderTop: '1px solid #E5E7EB', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-                      <Check size={13} color="#4CAF50" />
-                      <span style={{ fontSize: '10.5px', fontWeight: 800, color: '#1B5E20', letterSpacing: '0.06em', textTransform: 'uppercase', fontFamily: "'Manrope', sans-serif !important" }}>WESTPOINT QUALITY CERTIFIED</span>
-                    </div>
-
-                    <span style={{
-                      background: '#E8F5E9',
-                      color: '#1B5E20',
-                      fontSize: '10px',
-                      fontWeight: 800,
-                      padding: '3px 8px',
-                      borderRadius: '4px',
-                      letterSpacing: '0.04em',
-                      fontFamily: "'Manrope', sans-serif !important"
-                    }}>
-                      AAR / AREMA
+                    <span style={{ fontSize: '11px', fontWeight: 800, color: '#1B5E20', letterSpacing: '0.05em', textTransform: 'uppercase', fontFamily: "'Manrope', sans-serif !important" }}>
+                      View Specifications
                     </span>
+
+                    <div style={{ width: '28px', height: '28px', borderRadius: '50%', background: '#F0FDF4', border: '1px solid #BBF7D0', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                      <ArrowRight size={13} color="#15803D" />
+                    </div>
                   </div>
                 </div>
 

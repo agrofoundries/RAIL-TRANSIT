@@ -210,7 +210,7 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '8px', marginTop: '14px' }}>
                 <div style={{ background: '#F0FDF4', border: '1px solid #BBF7D0', padding: '10px 8px', borderRadius: '4px', textAlign: 'center' }}>
                   <ShieldCheck size={16} color="#166534" style={{ margin: '0 auto 4px auto', display: 'block' }} />
-                  <span style={{ fontSize: '10.5px', fontWeight: 900, color: '#166534', display: 'block' }}>AAR M-1003 QA</span>
+                  <span style={{ fontSize: '10.5px', fontWeight: 900, color: '#166534', display: 'block' }}>QUALITY ASSURED</span>
                 </div>
 
                 <div style={{ background: '#F0FDF4', border: '1px solid #BBF7D0', padding: '10px 8px', borderRadius: '4px', textAlign: 'center' }}>

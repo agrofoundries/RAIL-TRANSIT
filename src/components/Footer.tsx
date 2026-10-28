@@ -39,12 +39,12 @@ export const Footer: React.FC = () => {
   ];
 
   const solutions = [
-    { label: 'AREMA Trackwork Engineering', href: '#standards' },
-    { label: 'AAR M-1003 QA Certification', href: '#approvals' },
+    { label: 'RDSO Trackwork Engineering', href: '#approvals' },
+    { label: "RDSO Class 'A' Foundry QA", href: '#approvals' },
     { label: 'Electric Induction Steel Melting', href: '#process' },
     { label: 'Ultrasonic NDT & Testing Lab', href: '#testing' },
     { label: 'Heavy-Axle-Load Track Systems', href: '#performance' },
-    { label: 'Class I Railroad Supply Chain', href: '#coverage' }
+    { label: 'Rail Infrastructure Supply Chain', href: '#coverage' }
   ];
 
   const companyLinks = [
@@ -412,13 +412,13 @@ export const Footer: React.FC = () => {
               </div>
             </div>
 
-            {/* AAR & AREMA Quality Certification Badge Card */}
+            {/* RDSO Class 'A' Quality Accreditation Badge Card */}
             <div style={{ padding: '1.25rem 1.5rem', borderRadius: '8px', background: 'rgba(255, 255, 255, 0.06)', border: '1px solid rgba(76, 175, 80, 0.35)' }}>
               <div style={{ fontSize: '11px', fontWeight: 900, color: '#A5D6A7', letterSpacing: '0.12em', textTransform: 'uppercase', marginBottom: '6px', fontFamily: "'Manrope', sans-serif !important" }}>
-                AAR M-1003 &amp; AREMA QUALITY ACCREDITATION
+                RDSO APPROVED CLASS 'A' FOUNDRY
               </div>
               <p style={{ fontSize: '12.5px', color: 'rgba(255, 255, 255, 0.85)', lineHeight: 1.55, margin: 0, fontFamily: "'Manrope', sans-serif !important" }}>
-                All heavy rail components and trackwork castings are manufactured under ISO 9001:2015 certification with 100% volumetric NDT and full heat-code traceability.
+                All heavy rail components and trackwork castings are manufactured under RDSO Approved Class 'A' Foundry standards with 100% volumetric NDT and full heat-code traceability.
               </p>
             </div>
 

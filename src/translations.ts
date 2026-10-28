@@ -18,13 +18,13 @@ export const translations = {
     dropSpecialtyConcrete: 'Utility & Sub-Track Castings',
 
     // Sustainability Dropdown
-    dropEvoBuild: 'AREMA Rail Compliance',
-    dropCarbonReduction: 'AAR Metallurgical Standards',
-    dropGreenBuilding: 'ASTM & ISO Quality Framework',
+    dropEvoBuild: "RDSO Class 'A' Compliance",
+    dropCarbonReduction: 'RDSO Metallurgical Standards',
+    dropGreenBuilding: 'Quality Framework & Testing',
 
     // Resources Dropdown
     dropWhatIsReadyMix: 'Federal Railroad Administration (FRA)',
-    dropHowItWorks: 'Association of American Railroads (AAR)',
+    dropHowItWorks: 'Research Designs & Standards Organisation (RDSO)',
     dropConcreteGrades: 'State DOT & Transit Authorities',
     dropAggregatesExplained: 'Class I Freight & Passenger Operators',
     dropFaqs: 'Material Testing FAQs',
@@ -41,7 +41,7 @@ export const translations = {
     industries: 'Rail Projects',
     quality: 'Overview',
     company: 'Careers',
-    searchPlaceholder: 'Search rail castings, AREMA standards, AAR specs...',
+    searchPlaceholder: 'Search rail castings, RDSO specifications...',
     callUsToday: '24/7 RAIL DISPATCH HOTLINE',
     phoneNo: '603 838 3333 / 603 838 3222',
     hoursTitle: 'GLOBAL ENGINEERING DISPATCH',
@@ -58,14 +58,14 @@ export const translations = {
     heroTitlePart1: 'ENGINEERING HIGH-RELIABILITY',
     heroTitlePart2: 'RAIL & TRANSIT',
     heroTitlePart3: 'CASTINGS & FORGINGS',
-    heroSub: 'Global manufacturing excellence in heavy rail castings, precision drop forgings, turnout trackwork components, and rolling stock wheelsets. Engineered to AREMA, AAR, and FRA heavy axle load standards.',
+    heroSub: "Global manufacturing excellence in heavy rail castings, precision drop forgings, turnout trackwork components, and rolling stock wheelsets. Engineered to RDSO Approved Class 'A' Foundry standards.",
     viewProjects: 'Explore Rail Product Scope',
     requestConsultation: 'Request Engineering Quote',
     watchStory: 'Watch Foundry Operations',
     yearsExperience: 'Years of Foundry Heritage',
     awardsWon: 'Automated Induction Furnaces',
     acresDesigned: 'Tons Cast & Forged Annually',
-    isoCertified: 'ISO 9001 / ISO 14001 / ISO 45001 / AAR M-1003 Certified',
+    isoCertified: "RDSO Approved Class 'A' Foundry",
     connectWithUs: 'Connect with a Rail Infrastructure Specialist',
     whoWeAre: 'OVERVIEW & OBJECTIVES',
 
@@ -124,10 +124,9 @@ export const translations = {
     indTransportation: 'Light Rail Transit (LRT) & Streetcar Systems',
     indDataCenters: 'OEM Locomotive & Passenger Freight Car Builders',
     indWarehouses: 'Port Intermodal Railyards & Switching Terminals',
-
-    // Section 7: Manufacturing Excellence (STANDARDS & PROCESSES)
+    // Section 7: Manufacturing Excellence (STANDARDS & PROCESSES)
     mfgTitle: 'Advanced Manufacturing & Process Approvals',
-    mfgSub: 'Industry 4.0 automated foundry molding lines and heavy drop forging presses operating under strict AAR M-1003 quality controls.',
+    mfgSub: "Industry 4.0 automated foundry molding lines and heavy drop forging presses operating under strict RDSO Class 'A' quality controls.",
     mfg1Title: 'Automatic Green Sand & No-Bake Molding',
     mfg1Desc: 'High-pressure automated molding lines ensuring tight dimensional tolerances and flawless surface finish on complex castings.',
     mfg2Title: 'Heavy Drop Forging & Machining Line',
@@ -156,7 +155,7 @@ export const translations = {
 
     // Section 10: Quality Assurance (TESTINGS & LABORATORY CONTROLS)
     labTitle: 'Comprehensive Metallurgical Testing & Lab Protocols',
-    labSub: 'Rigorous chemical, physical, and non-destructive testing (NDT) conducted per AREMA, ASTM, AAR, and ISO standards.',
+    labSub: "Rigorous chemical, physical, and non-destructive testing (NDT) conducted per RDSO Approved Class 'A' Foundry standards.",
     labStandardSelect: 'Select Rail Compliance Framework',
     labASTMText: 'Chemical & Spectrometric Melt Dosing',
     labCompStrength: 'Tensile, Yield & Sub-Zero Charpy Impact',
@@ -199,17 +198,17 @@ export const translations = {
     digi2Title: 'Digital Mill Test Reports (MTR)',
     digi2Desc: 'Instant digital access to full heat-code heat chemistry, tensile break results, and NDT inspection sign-offs.',
     digi3Title: 'Automated Re-order & Engineering CAD',
-    digi3Desc: 'Download AREMA standard shop drawings, 3D CAD models, and schedule recurring track maintenance deliveries.',
+    digi3Desc: 'Download RDSO standard shop drawings, 3D CAD models, and schedule recurring track maintenance deliveries.',
 
     // Section 15: Safety Standards (STANDARDS & COMPLIANCE)
     safeTitle: 'Standards, Safety & Environmental Accreditations',
     safeSub: 'Protecting workforce safety and environmental sustainability across all foundry and forging facilities.',
-    safe1Title: 'ISO 45001 & ISO 14001 Certification',
-    safe1Desc: 'Internationally accredited occupational safety and environmental management systems in every plant.',
+    safe1Title: "RDSO Class 'A' Safety & Quality Framework",
+    safe1Desc: 'Accredited occupational safety and environmental management systems in every plant.',
     safe2Title: '98% Sand Reclamation & Zero Water Discharge',
     safe2Desc: 'Closed-loop sand recovery systems and zero-discharge industrial water recycling networks.',
-    safe3Title: 'AAR M-1003 Safety & Quality Assurance',
-    safe3Desc: 'Audited compliance with Association of American Railroads quality management specification M-1003.',
+    safe3Title: "RDSO Class 'A' Quality Assurance",
+    safe3Desc: "Audited compliance with Research Designs and Standards Organisation Class 'A' foundry specifications.",
 
     // Section 16: Customer Testimonials (AUTHORITIES & PARTNER TRUST)
     testiTitle: 'Rail Industry Trust & Authority Testimonials',
@@ -217,11 +216,11 @@ export const translations = {
 
     // Section 17: Latest News & Insights (TESTINGS & ARTICLES)
     newsTitle: 'Metallurgical Research & Rail Standards Bulletins',
-    newsSub: 'Technical papers on manganese frog wear resistance, sub-zero axle fatigue life, and AREMA specification updates.',
+    newsSub: 'Technical papers on manganese frog wear resistance, sub-zero axle fatigue life, and RDSO specification updates.',
 
     // Section 18: Certifications & Awards (CERTIFICATIONS & APPROVALS)
     certTitle: 'Certifications, Approvals & Industry Accreditations',
-    certSub: 'Independently audited and certified by FRA, AAR, ISO, and international transit authorities.',
+    certSub: "Independently audited and approved as an RDSO Class 'A' Foundry by the Ministry of Railways.",
 
     // Section 19: Calculator & Quote Request (RAIL TONNAGE CALCULATOR)
     calcTitle: 'Interactive Rail Component Weight & Tonnage Calculator',
@@ -241,7 +240,7 @@ export const translations = {
     calcWaste: 'Includes standard machining allowance margin.',
 
     quoteTitle: 'Request a Rail Castings & Forgings Quote',
-    quoteSub: 'Get in touch with a metallurgical engineer to discuss AREMA / AAR specifications, volume pricing, and lead times.',
+    quoteSub: 'Get in touch with a metallurgical engineer to discuss RDSO specifications, volume pricing, and lead times.',
     quoteSelectStrength: 'Select Material Grade',
     quoteSelectType: 'Component Type',
     quoteVolume: 'Estimated Quantity / Tonnage',
@@ -254,7 +253,7 @@ export const translations = {
     quoteSuccess: 'Thank you! Your inquiry has been sent to our rail engineering and sales department. An engineer will contact you shortly.',
 
     // Section 20: Contact & Footer (AUTHORITIES & OVERVIEW)
-    footerDesc: 'Global leader in heavy rail castings, forged axles, turnout trackwork components, and transit catenary hardware. Certified under AAR M-1003, AREMA, FRA, and ISO standards.',
+    footerDesc: "Global leader in heavy rail castings, forged axles, turnout trackwork components, and transit catenary hardware. RDSO Approved Class 'A' Foundry.",
     navigation: 'Navigation',
     productsAndServices: 'Products & Scope',
     qualityAndCompliance: 'Standards & Approvals',
@@ -262,7 +261,7 @@ export const translations = {
     careers: 'Careers',
     newsAndMedia: 'News & Technical Papers',
     subscribe: 'Connect',
-    subscribeText: 'Subscribe to our rail engineering technical bulletin for AREMA updates and metallurgical insights.',
+    subscribeText: 'Subscribe to our rail engineering technical bulletin for RDSO updates and metallurgical insights.',
     emailPlaceholder: 'Corporate email address',
     join: 'Subscribe',
     rightsReserved: 'All rights reserved. Westpoint Group Companies.',
@@ -288,13 +287,13 @@ export const translations = {
     dropSpecialtyConcrete: 'Fundiciones Subterráneas y Servicios',
 
     // Sustainability Dropdown
-    dropEvoBuild: 'Cumplimiento Ferroviario AREMA',
-    dropCarbonReduction: 'Estándares Metalúrgicos AAR',
-    dropGreenBuilding: 'Marco de Calidad ASTM e ISO',
+    dropEvoBuild: "Cumplimiento Ferroviario RDSO Clase 'A'",
+    dropCarbonReduction: 'Estándares Metalúrgicos RDSO',
+    dropGreenBuilding: 'Marco de Calidad y Ensayos',
 
     // Resources Dropdown
     dropWhatIsReadyMix: 'Administración Federal de Ferrocarriles (FRA)',
-    dropHowItWorks: 'Asociación de Ferrocarriles Americanos (AAR)',
+    dropHowItWorks: 'Organización de Diseños y Estándares de Investigación (RDSO)',
     dropConcreteGrades: 'Departamentos de Transporte y Tránsito',
     dropAggregatesExplained: 'Operadores de Carga y Pasajeros Clase I',
     dropFaqs: 'Preguntas Frecuentes de Ensayos',
@@ -311,7 +310,7 @@ export const translations = {
     industries: 'Proyectos Ferroviarios',
     quality: 'Resumen',
     company: 'Carreras',
-    searchPlaceholder: 'Buscar piezas fundidas, estándares AREMA, AAR...',
+    searchPlaceholder: 'Buscar piezas fundidas, especificaciones RDSO...',
     callUsToday: 'LÍNEA DE DESPACHO FERROVIARIO 24/7',
     phoneNo: '603 838 3333 / 603 838 3222',
     hoursTitle: 'DESPACHO DE INGENIERÍA GLOBAL',
@@ -325,14 +324,14 @@ export const translations = {
     heroTitlePart1: 'INGENIERÍA PARA',
     heroTitlePart2: 'FERROCARRILES Y TRÁNSITO',
     heroTitlePart3: 'PIEZAS FUNDIDAS Y FORJADAS',
-    heroSub: 'Excelencia en fabricación de fundición pesada para vías, forja de precisión, desvíos y ruedas para material rodante. Cumplimiento estricto de estándares AREMA, AAR y FRA.',
+    heroSub: "Excelencia en fabricación de fundición pesada para vías, forja de precisión, desvíos y ruedas para material rodante. Fundición aprobada RDSO Clase 'A'.",
     viewProjects: 'Explorar Alcance de Productos',
     requestConsultation: 'Solicitar Cotización de Ingeniería',
     watchStory: 'Ver Operaciones de Fundición',
     yearsExperience: 'Años de Experiencia en Fundición',
     awardsWon: 'Hornos de Inducción Automatizados',
     acresDesigned: 'Toneladas Fundidas y Forjadas Anuales',
-    isoCertified: 'Certificación ISO 9001 / ISO 14001 / ISO 45001 / AAR M-1003',
+    isoCertified: "Fundición Aprobada RDSO Clase 'A'",
     connectWithUs: 'Conectar con un Especialista en Infraestructura Ferroviaria',
     whoWeAre: 'RESUMEN Y OBJETIVOS',
 
@@ -360,7 +359,7 @@ export const translations = {
     why5Title: 'Prototipado Rápido y Piezas a Medida',
     why5Desc: 'Moldes de arena impresos en 3D para componentes de vías personalizados y piezas de repuesto.',
     why6Title: 'Operaciones Sostenibles y Cero Daños',
-    why6Desc: 'Prácticas de fundición verde ISO 14001 con un 98% de recuperación de arena.',
+    why6Desc: 'Prácticas de fundición verde con un 98% de recuperación de arena.',
 
     // Section 4: Raw Products & Materials
     prodTitle: 'Categorías de Productos Ferroviarios',
@@ -394,7 +393,7 @@ export const translations = {
 
     // Section 7: Manufacturing Excellence
     mfgTitle: 'Fabricación Avanzada y Aprobaciones de Proceso',
-    mfgSub: 'Líneas de moldeo automatizadas Industria 4.0 y prensas de forja bajo especificaciones AAR M-1003.',
+    mfgSub: "Líneas de moldeo automatizadas Industria 4.0 y prensas de forja bajo especificaciones RDSO Clase 'A'.",
     mfg1Title: 'Moldeo Automatizado en Arena Verde',
     mfg1Desc: 'Líneas de moldeo a alta presión que garantizan tolerancias dimensionales estrictas.',
     mfg2Title: 'Línea Pesada de Forja y Mecanizado CNC',
@@ -423,7 +422,7 @@ export const translations = {
 
     // Section 10: Quality Assurance
     labTitle: 'Ensayos Metalúrgicos Integrales y Protocolos de Laboratorio',
-    labSub: 'Rigurosos ensayos químicos, físicos y no destructivos (NDT) según normas AREMA, ASTM, AAR e ISO.',
+    labSub: "Rigurosos ensayos químicos, físicos y no destructivos (NDT) según normas RDSO Clase 'A'.",
     labStandardSelect: 'Seleccionar Marco de Cumplimiento Ferroviario',
     labASTMText: 'Dosificación Química y Espectrometría',
     labCompStrength: 'Tracción, Límite Elástico e Impacto Charpy',
@@ -466,17 +465,17 @@ export const translations = {
     digi2Title: 'Informes Digitales de Ensayos de Molino (MTR)',
     digi2Desc: 'Acceso digital instantáneo a la química por colada, resultados de tracción y firmas NDT.',
     digi3Title: 'Reorden Automatizado y CAD 3D',
-    digi3Desc: 'Descargue planos de taller según estándares AREMA y programe entregas periódicas de mantenimiento.',
+    digi3Desc: 'Descargue planos de taller según estándares RDSO y programe entregas periódicas de mantenimiento.',
 
     // Section 15: Safety Standards
     safeTitle: 'Estándares, Seguridad y Acreditaciones Ambientales',
     safeSub: 'Protegiendo la seguridad laboral y la sostenibilidad ambiental en todas las plantas.',
-    safe1Title: 'Certificación ISO 45001 e ISO 14001',
-    safe1Desc: 'Sistemas de gestión de seguridad ocupacional y ambiental acreditados internacionalmente.',
+    safe1Title: "Marco de Seguridad y Calidad RDSO Clase 'A'",
+    safe1Desc: 'Sistemas de gestión de seguridad ocupacional y ambiental acreditados.',
     safe2Title: '98% Reciclaje de Arena y Cero Descargas',
     safe2Desc: 'Sistemas de recuperación de arena de circuito cerrado y redes de reciclaje de agua industrial.',
-    safe3Title: 'Garantía de Calidad AAR M-1003',
-    safe3Desc: 'Cumplimiento auditado con la especificación de gestión de calidad M-1003 de la AAR.',
+    safe3Title: "Garantía de Calidad RDSO Clase 'A'",
+    safe3Desc: "Cumplimiento auditado con las especificaciones de fundición Clase 'A' de la RDSO.",
 
     // Section 16: Customer Testimonials
     testiTitle: 'Confianza de la Industria Ferroviaria y Testimonios',
@@ -488,7 +487,7 @@ export const translations = {
 
     // Section 18: Certifications & Awards
     certTitle: 'Certificaciones, Aprobaciones y Acreditaciones',
-    certSub: 'Auditado independientemente y certificado por la FRA, AAR, ISO y autoridades de tránsito.',
+    certSub: "Auditado independientemente y aprobado como fundición RDSO Clase 'A'.",
 
     // Section 19: Calculator & Quote Request
     calcTitle: 'Calculadora de Peso y Tonelaje de Componentes Ferroviarios',
@@ -508,7 +507,7 @@ export const translations = {
     calcWaste: 'Incluye el margen estándar de tolerancia de mecanizado.',
 
     quoteTitle: 'Solicitar Cotización de Fundiciones y Forjas Ferroviarias',
-    quoteSub: 'Póngase en contacto con un ingeniero metalúrgico para discutir especificaciones AREMA / AAR.',
+    quoteSub: 'Póngase en contacto con un ingeniero metalúrgico para discutir especificaciones RDSO.',
     quoteSelectStrength: 'Seleccionar Grado de Material',
     quoteSelectType: 'Tipo de Componente',
     quoteVolume: 'Cantidad / Tonelaje Estimado',
@@ -521,7 +520,7 @@ export const translations = {
     quoteSuccess: '¡Gracias! Su consulta ha sido enviada a nuestro departamento de ingeniería y ventas ferroviarias.',
 
     // Section 20: Contact & Footer
-    footerDesc: 'Líder mundial en fundiciones pesadas para ferrocarriles, ejes forjados y herrajes para catenaria. Certificado según normas AAR M-1003, AREMA, FRA e ISO.',
+    footerDesc: "Líder mundial en fundiciones pesadas para ferrocarriles, ejes forjados y herrajes para catenaria. Fundición aprobada RDSO Clase 'A'.",
     navigation: 'Navegación',
     productsAndServices: 'Productos y Alcance',
     qualityAndCompliance: 'Estándares y Aprobaciones',
@@ -529,7 +528,7 @@ export const translations = {
     careers: 'Carreras',
     newsAndMedia: 'Noticias y Artículos Técnicos',
     subscribe: 'Conectar',
-    subscribeText: 'Suscríbase a nuestro boletín técnico para actualizaciones AREMA e información metalúrgica.',
+    subscribeText: 'Suscríbase a nuestro boletín técnico para actualizaciones RDSO e información metalúrgica.',
     emailPlaceholder: 'Correo corporativo',
     join: 'Suscribirse',
     rightsReserved: 'Todos los derechos reservados. Westpoint Group Companies.',

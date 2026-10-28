@@ -10,15 +10,15 @@ export const FactoryOverview: React.FC = () => {
       icon: TrainTrack
     },
     {
-      value: 'AAR M-1003',
-      label: 'QUALITY CERTIFICATION',
-      sub: 'Certified metal engineering excellence',
+      value: "RDSO CLASS 'A'",
+      label: 'QUALITY APPROVAL',
+      sub: "RDSO Approved Class 'A' Foundry excellence",
       icon: ShieldCheck
     },
     {
       value: 'THOUSANDS OF',
       label: 'PRODUCTS DELIVERED',
-      sub: 'AREMA & AAR M-1003 certified rail components',
+      sub: 'RDSO approved rail & transit castings',
       icon: Box
     },
     {

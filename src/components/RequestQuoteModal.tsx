@@ -116,9 +116,9 @@ export const RequestQuoteModal: React.FC<RequestQuoteModalProps> = ({ isOpen, on
               <div>
                 <label style={{ display: 'block', fontSize: '11px', fontWeight: 800, color: '#1B5E20', letterSpacing: '0.05em', textTransform: 'uppercase', marginBottom: '4px' }}>PRODUCT INTEREST</label>
                 <select style={{ width: '100%', padding: '10px 12px', border: '1px solid #E5E7EB', background: '#FFFFFF', fontSize: '13px', color: '#1B5E20', outline: 'none' }}>
-                  <option>Rail Turnout Castings (AREMA Ch. 4)</option>
+                  <option>Rail Turnout Castings (RDSO Trackwork)</option>
                   <option>Forged Locomotive Axles &amp; Wheelsets</option>
-                  <option>AAR Grade E Couplers &amp; Draft Gear</option>
+                  <option>RDSO Grade Couplers &amp; Draft Gear</option>
                   <option>Catenary &amp; Third-Rail Hardware</option>
                   <option>Custom Industrial Forgings &amp; Castings</option>
                 </select>

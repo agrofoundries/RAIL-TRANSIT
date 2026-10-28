@@ -8,7 +8,7 @@ export const SolidificationCalculator: React.FC = () => {
 
   const alloyData = {
     manganese: {
-      name: 'Austenitic Manganese Steel (AREMA Ch. 4)',
+      name: 'Austenitic Manganese Steel (RDSO Trackwork Spec)',
       yieldStrength: '680 - 750 MPa',
       hardness: '220 - 550 BHN (Work-Hardened)',
       fractureToughness: '120 J/cm² @ -40°C',
@@ -24,7 +24,7 @@ export const SolidificationCalculator: React.FC = () => {
       desc: 'High spheroidal graphite density delivering superior vibration damping for locomotive brake heads.'
     },
     forged: {
-      name: 'Forged Alloy Steel (AAR M-101 Grade F)',
+      name: 'Forged Alloy Steel (IRS R-16 / IS 1875 Spec)',
       yieldStrength: '850 - 980 MPa',
       hardness: '280 - 340 BHN',
       fractureToughness: '145 J/cm² @ -50°C',
@@ -177,7 +177,7 @@ export const SolidificationCalculator: React.FC = () => {
             <div style={{ paddingTop: '1.25rem', marginTop: '1.5rem', borderTop: '1px solid rgba(255,255,255,0.15)', display: 'flex', alignItems: 'center', gap: '8px' }}>
               <ShieldCheck size={16} color="#4CAF50" />
               <span style={{ fontSize: '11px', color: '#E8F5E9', fontFamily: "'Manrope', sans-serif !important" }}>
-                Calculations auto-validated against AREMA Chapter 4 specs.
+                Calculations auto-validated against RDSO trackwork specifications.
               </span>
             </div>
           </div>

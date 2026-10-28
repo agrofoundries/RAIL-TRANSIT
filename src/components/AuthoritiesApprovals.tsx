@@ -72,10 +72,10 @@ export const AuthoritiesApprovals: React.FC = () => {
       icon: ShieldCheck,
       desc: 'Full quality management system & metallurgy audits.',
       items: [
-        'AAR M-1003 Quality Assurance Certified Facility',
-        'ISO 9001:2015 Manufacturing Traceability',
-        'IATF 16949 Heavy Equipment Drop Forging QA',
-        'AREMA Chapter 4 Trackwork Specification Compliance'
+        "RDSO Approved Class 'A' Foundry QA Facility",
+        'Strict In-House Metallurgical Traceability',
+        'Heavy Equipment Drop Forging Quality Assurance',
+        'RDSO Trackwork Specification Compliance'
       ]
     }
   ];
@@ -236,8 +236,8 @@ export const AuthoritiesApprovals: React.FC = () => {
             </div>
 
             <div style={{ borderLeft: '1px solid rgba(255,255,255,0.15)', paddingLeft: '1.5rem' }}>
-              <span style={{ fontSize: '10px', color: '#A5D6A7', fontWeight: 900, textTransform: 'uppercase', letterSpacing: '0.1em', display: 'block', fontFamily: "'Manrope', sans-serif !important" }}>AAR &amp; AREMA COMPLIANCE</span>
-              <strong style={{ fontSize: '14px', color: '#FFFFFF', fontWeight: 800, fontFamily: "'Manrope', sans-serif !important" }}>FULL HEAT CODE CERTIFICATION</strong>
+              <span style={{ fontSize: '10px', color: '#A5D6A7', fontWeight: 900, textTransform: 'uppercase', letterSpacing: '0.1em', display: 'block', fontFamily: "'Manrope', sans-serif !important" }}>RDSO CLASS 'A' COMPLIANCE</span>
+              <strong style={{ fontSize: '14px', color: '#FFFFFF', fontWeight: 800, fontFamily: "'Manrope', sans-serif !important" }}>FULL HEAT CODE TRACEABILITY</strong>
             </div>
           </div>
 

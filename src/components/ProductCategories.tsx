@@ -50,7 +50,7 @@ export const ProductCategories: React.FC = () => {
           <div>
             <div className="eyebrow">
               <span style={{ display: 'inline-block', width: '32px', height: '3px', background: '#4CAF50' }} />
-              <span style={{ color: '#4CAF50' }}>RDSO, AREMA &amp; AAR M-1003 APPROVED DIVISIONS</span>
+              <span style={{ color: '#4CAF50' }}>RDSO APPROVED CLASS 'A' FOUNDRY DIVISIONS</span>
             </div>
             <h2 style={{ fontSize: '2.25rem', color: '#111827', fontWeight: 900, margin: 0, textTransform: 'uppercase', fontFamily: "'Manrope', sans-serif !important" }}>
               ENTERPRISE PRODUCT DIVISIONS &amp; WAGON SYSTEMS
@@ -118,7 +118,7 @@ export const ProductCategories: React.FC = () => {
                   <div style={{ paddingTop: '1rem', marginTop: '1rem', borderTop: '1px solid #E5E7EB', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
                     <div style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
                       <ShieldCheck size={15} color="#16A34A" />
-                      <span style={{ fontSize: '11px', fontWeight: 800, color: '#1B5E20', letterSpacing: '0.05em', textTransform: 'uppercase', fontFamily: "'Manrope', sans-serif !important" }}>CERTIFIED SPEC</span>
+                      <span style={{ fontSize: '11px', fontWeight: 800, color: '#1B5E20', letterSpacing: '0.05em', textTransform: 'uppercase', fontFamily: "'Manrope', sans-serif !important" }}>VIEW SPECIFICATIONS</span>
                     </div>
                     
                     <div style={{ width: '28px', height: '28px', borderRadius: '50%', background: '#F0FDF4', border: '1px solid #BBF7D0', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>

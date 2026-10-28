@@ -4,34 +4,34 @@ import { ShieldCheck, ArrowRight } from 'lucide-react';
 export const StandardsGrid: React.FC = () => {
   const standards = [
     {
-      code: 'ISO 9001:2015',
-      name: 'QUALITY MANAGEMENT SYSTEM',
-      desc: 'Certified manufacturing facilities with full material traceability from scrap steel melt to final dispatch.'
+      code: "RDSO CLASS 'A'",
+      name: 'RESEARCH DESIGNS & STANDARDS ORGANISATION',
+      desc: "Class 'A' Approved Foundry manufacturing facilities with full material traceability from melt to dispatch."
     },
     {
-      code: 'IATF 16949',
-      name: 'HEAVY EQUIPMENT & FORGING QA',
-      desc: 'PPAP Level 3 documentation and defect prevention management across drop forging operations.'
+      code: 'IS / IRS SPEC',
+      name: 'INDIAN RAILWAY SPECIFICATIONS',
+      desc: 'Compliance for locomotive wheelsets, axles, bogie bolsters, and wagon components.'
     },
     {
-      code: 'AAR M-1003',
-      name: 'ASSOCIATION OF AMERICAN RAILROADS',
-      desc: 'Quality assurance certification for locomotive wheelsets, axles, knuckles, and cast steel bolsters.'
-    },
-    {
-      code: 'AREMA CHAPTER 4',
-      name: 'RAILWAY ENGINEERING TRACKWORK',
+      code: 'RDSO TRACKWORK',
+      name: 'RAILWAY TRACKWORK SPECIFICATIONS',
       desc: 'Full specification compliance for manganese frog crossovers, turnout switch heels, and tie plates.'
     },
     {
       code: 'EN 13674',
-      name: 'EUROPEAN RAILWAY APPLICATIONS',
+      name: 'RAILWAY APPLICATIONS BENCHMARK',
       desc: 'Material composition and fatigue resistance benchmarks for transit catenary hardware and rail fasteners.'
     },
     {
-      code: 'FRA RULE 213',
-      name: 'FEDERAL RAILROAD ADMINISTRATION',
-      desc: 'Safety standards for Class 1 through Class 9 heavy haul freight and high-speed passenger lines.'
+      code: 'ASTM A27 / A536',
+      name: 'CARBON STEEL & DUCTILE IRON',
+      desc: 'Standard specifications for high-strength steel castings and spheroidal graphite iron components.'
+    },
+    {
+      code: 'NDT LEVEL II',
+      name: 'ULTRASONIC & MAGNETIC PARTICLE QA',
+      desc: 'Volumetric flaw detection and structural integrity testing across all safety-critical castings.'
     }
   ];
 
@@ -111,7 +111,7 @@ export const StandardsGrid: React.FC = () => {
             />
             <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(27,94,32,0.9), transparent)', padding: '1.25rem', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end' }}>
               <span style={{ fontSize: '10.5px', fontWeight: 900, color: '#4CAF50', letterSpacing: '0.12em', textTransform: 'uppercase', fontFamily: "'Manrope', sans-serif !important" }}>
-                AAR M-101 CERTIFIED WHEELSETS
+                RDSO APPROVED WHEELSETS
               </span>
               <h3 style={{ fontSize: '15px', fontWeight: 900, color: '#FFFFFF', margin: 0, textTransform: 'uppercase', fontFamily: "'Manrope', sans-serif !important" }}>
                 Heavy Freight Train Axle &amp; Wheel Assemblies
