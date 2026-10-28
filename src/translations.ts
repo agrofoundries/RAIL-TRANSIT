@@ -23,7 +23,7 @@ export const translations = {
     dropGreenBuilding: 'Quality Framework & Testing',
 
     // Resources Dropdown
-    dropWhatIsReadyMix: 'Federal Railroad Administration (FRA)',
+    dropWhatIsReadyMix: 'Ministry of Railways (Indian Railways)',
     dropHowItWorks: 'Research Designs & Standards Organisation (RDSO)',
     dropConcreteGrades: 'State DOT & Transit Authorities',
     dropAggregatesExplained: 'Class I Freight & Passenger Operators',
@@ -292,7 +292,7 @@ export const translations = {
     dropGreenBuilding: 'Marco de Calidad y Ensayos',
 
     // Resources Dropdown
-    dropWhatIsReadyMix: 'Administración Federal de Ferrocarriles (FRA)',
+    dropWhatIsReadyMix: 'Ministerio de Ferrocarriles (Indian Railways)',
     dropHowItWorks: 'Organización de Diseños y Estándares de Investigación (RDSO)',
     dropConcreteGrades: 'Departamentos de Transporte y Tránsito',
     dropAggregatesExplained: 'Operadores de Carga y Pasajeros Clase I',

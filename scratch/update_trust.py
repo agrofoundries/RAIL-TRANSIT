@@ -16,7 +16,7 @@ if old_import in content:
 # 2. Update authorityApprovals array
 old_array = """const authorityApprovals = [
   { name: 'Amtrak Passenger Rail', status: 'Approved Master Vendor', code: 'AMTK-SUP-091', logo: 'AMTRAK' },
-  { name: 'BNSF Railway Company', status: 'Class 1 Heavy Freight Certified', code: 'BNSF-M-1003-OK', logo: 'BNSF' },
+  { name: 'BNSF Railway Company', status: 'Class 1 Heavy Freight Certified', code: 'BNSF-SPEC-OK', logo: 'BNSF' },
   { name: 'Union Pacific Railroad', status: 'Qualified Trackwork Supplier', code: 'UP-TRK-7740', logo: 'UNION PACIFIC' },
   { name: 'CSX Transportation', status: 'Approved Component Provider', code: 'CSX-QA-339', logo: 'CSX' },
   { name: 'Norfolk Southern Rail', status: 'Heavy Haul Axle Certified', code: 'NS-AXLE-512', logo: 'NORFOLK SOUTHERN' },
@@ -168,7 +168,7 @@ if idx_start != -1 and idx_end != -1:
                       {auth.status}
                     </span>
                     <span style={{ fontSize: '11px', color: '#9CA3AF', fontWeight: 600, fontFamily: "'Manrope', sans-serif !important" }}>
-                      AAR / AREMA Spec
+                      RDSO CLASS 'A' Spec
                     </span>
                   </div>
                 </div>

@@ -203,7 +203,7 @@ export const RailwayTelemetryWidget: React.FC = () => {
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <Activity size={16} color="#4CAF50" />
                 <span style={{ fontSize: '12px', fontWeight: 800, fontFamily: "'Manrope', sans-serif !important" }}>
-                  FRA RULE 213 CLASS 9 HIGH-SPEED TRACK COMPLIANT
+                  RDSO HIGH-SPEED TRACKWORK SPECIFICATION COMPLIANT
                 </span>
               </div>
               <a href="#contact" className="link-hover-arrow" style={{ color: '#FFFFFF' }}>
